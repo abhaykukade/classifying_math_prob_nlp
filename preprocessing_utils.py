@@ -1,5 +1,6 @@
 import spacy
 import re
+# python -m spacy download en_core_web_sm
 
 nlp = spacy.load("en_core_web_sm", disable=["parser", "ner"])
 # MATH_SYMBOLS = set("+-=*/^%<>!~|()[]}{")
